@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+:root {
+  font-family: "Luckiest Guy", cursive;
+  --main-color: black;
+}
+
+body {
+  max-width: 980px;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 200%;
+}
+
+h3 {
+  font-family: "Lobster", cursive;
+  color: green;
+  text-align: center;
+  font-size: 200%;
+}
+
+header nav .logo {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 4rem;
+  margin: 15;
+  text-align: center;
+  color: green;
+}
+
+header nav .top-menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+header nav .top-menu li a {
+  text-transform: uppercase;
+  color: var(--main-color);
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 5px;
+}
+
+header nav .top-menu li a:hover {
+  border: 2px solid;
+  border-color: green;
+  border-radius: 5px;
+}
+
+header nav .top-menu {
+  flex: 1;
+  margin-top: 0;
+}
+
+@media (min-width: 500px) {
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+}
