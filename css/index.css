@@ -12,6 +12,11 @@ body {
   margin: auto;
 }
 
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+}
+
 h2 {
   margin-top: 50px;
   text-align: center;
@@ -64,5 +69,8 @@ header nav .top-menu {
   header nav {
     display: flex;
     align-items: center;
+  }
+  p {
+    text-indent: 25px;
   }
 }
