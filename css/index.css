@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Roboto";
   --main-color: black;
 }
 
@@ -15,6 +16,7 @@ h2 {
   margin-top: 50px;
   text-align: center;
   font-size: 200%;
+  font-family: "Luckiest Guy", cursive;
 }
 
 h3 {
@@ -36,11 +38,12 @@ header nav .top-menu {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
+  font-family: "Luckiest Guy", cursive;
 }
 
 header nav .top-menu li a {
   text-transform: uppercase;
-  color: var(--main-color);
+  color: black;
   text-decoration: none;
   border: 1px solid transparent;
   padding: 5px;
