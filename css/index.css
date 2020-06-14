@@ -96,7 +96,6 @@ header nav .top-menu {
     border: 1px solid #eee;
     margin: 0;
     padding: 0;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
 
@@ -110,7 +109,6 @@ header nav .top-menu {
     font-size: 25px;
   }
 
-  /* List items */
   .price li {
     border-bottom: 1px solid green;
     padding: 20px;
@@ -131,5 +129,13 @@ header nav .top-menu {
     text-decoration: none;
     font-size: 18px;
     border-radius: 50px 50px 50px 50px;
+  }
+
+  .address-block {
+    text-align: left;
+  }
+
+  .jumbotron {
+    text-align: center;
   }
 }
