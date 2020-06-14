@@ -55,7 +55,7 @@ header nav .top-menu li a {
 }
 
 header nav .top-menu li a:hover {
-  border: 2px solid;
+  border: 1px solid;
   border-color: green;
   border-radius: 5px;
 }
@@ -70,7 +70,66 @@ header nav .top-menu {
     display: flex;
     align-items: center;
   }
+
   p {
     text-indent: 25px;
+  }
+
+  #center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .price .header {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+  }
+
+  /* List items */
+  .price li {
+    border-bottom: 1px solid green;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .price .grey {
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+  }
+
+  .button {
+    background-color: yellow;
+    border-color: white;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50px 50px 50px 50px;
   }
 }
